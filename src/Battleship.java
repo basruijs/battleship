@@ -61,7 +61,6 @@ public class Battleship {
                     int y = random.nextInt(size);
                     boolean evenShot = false;
                     while (true) {
-                        System.out.println(1);
                         if ((x + y) % 2 == 0) {
                             break;
                         } else {

@@ -27,7 +27,7 @@ public class Display implements ActionListener {
     public String inputString = "";
     Display() {
         f= new JFrame("Battleship");
-        String[] themes = {"Naval", "Seamonster", "Pirate"};
+        String[] themes = {"Naval", "Seamonster", "Pirate", "Space"};
 
         for (int i = 0; i < themeSelectors.length; i++) {
             themeSelectors[i] = new JComboBox(themes);
@@ -48,9 +48,9 @@ public class Display implements ActionListener {
             f.add(labels[i]);
         }
 
-        labels[0].setText("(5) Carriers");
-        labels[1].setText("(4) Battleships");
-        labels[2].setText("(3) Destroyers");
+        labels[0].setText("(6) Carriers");
+        labels[1].setText("(5) Battleships");
+        labels[2].setText("(4) Destroyers");
         labels[3].setText("(3) Submarines");
         labels[4].setText("(2) Patrol Boats");
         labels[5].setText("Mines");

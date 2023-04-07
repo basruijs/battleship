@@ -65,16 +65,27 @@ public abstract class Emoji {
     public static String SPEEDBOAT = "\uD83D\uDEA4"; //🚤
     public static String HUGE_BOAT = "\uD83D\uDEF3"; //🛳
     public static String SMALL_BOAT = "\uD83D\uDEA2"; //🚢
-    public static String SUBMARINE = "\uD83D\uDEE5"; //🛥
+    public static String SUBMARINE = "\uD83D\uDE85"; //🚅
 
     public static String SQUID = "\uD83E\uDD91"; //🦑
     public static String SHARK = "\uD83E\uDD88"; //🦈
     public static String WHALE = "\uD83D\uDC0B"; //🐋
     public static String CRAB = "\uD83E\uDD80"; //🦀
-    public static String VORTEX = "\uD83C\uDF00"; //🌀
+    public static String VORTEX = "\uD83C\uDF00"; //🌀 //🛸
 
     public static String ROWBOAT = "\uD83D\uDEA3"; //🚣
     public static String SAILBOAT = "⛵"; //⛵
     public static String SKULL_AND_CROSSBONES = "\uD83D\uDD71"; //🕱
     public static String CANOE = "\uD83D\uDEF6"; //🛶
+
+    public static String SHOOTING_STAR = "\uD83C\uDF20"; //🌠
+    public static String GALAXY = "\uD83C\uDF0C"; //🌌
+    public static String ROCKET = "\uD83D\uDE80"; //🚀
+    public static String ALIEN_MONSTER = "\uD83D\uDC7E"; //👾
+    public static String ALIEN = "\uD83D\uDC7D"; //👽
+    public static String SATELLITE_ANTENNA = "\uD83D\uDCE1"; //📡
+    public static String RADIOACTIVE = "☢"; //☢
+    public static String SATELLITE = "\uD83D\uDEF0"; //🛰;
+    public static String DRUM = "\uD83E\uDD41"; //🥁
+
 }

@@ -35,29 +35,35 @@ public class Boatmaker {
                     switch (j) {
                         case 0:
                             if (theme[i]==0) {
-                                ships[i][extra] = new Ship(5, boards[i * 2], "Carrier", Emoji.HUGE_BOAT);
+                                ships[i][extra] = new Ship(6, boards[i * 2], "Carrier", Emoji.HUGE_BOAT);
                             } else if(theme[i]==1) {
-                                ships[i][extra] = new Ship(5, boards[i * 2], "Leviathan", Emoji.WHALE);
+                                ships[i][extra] = new Ship(6, boards[i * 2], "Leviathan", Emoji.WHALE);
                             } else if(theme[i]==2) {
-                                ships[i][extra] = new Ship(5, boards[i * 2], "Galleon", Emoji.SKULL_AND_CROSSBONES);
+                                ships[i][extra] = new Ship(6, boards[i * 2], "Galleon", Emoji.SKULL_AND_CROSSBONES);
+                            } else if(theme[i]==3) {
+                                ships[i][extra] = new Ship(6, boards[i * 2], "Mothership", Emoji.ALIEN);
                             }
                             break;
                         case 1:
                             if (theme[i]==0) {
-                                ships[i][extra] = new Ship(4, boards[i * 2], "Battleship", Emoji.BOAT);
+                                ships[i][extra] = new Ship(5, boards[i * 2], "Battleship", Emoji.BOAT);
                             } else if(theme[i]==1) {
-                                ships[i][extra] = new Ship(4, boards[i * 2], "Kraken", Emoji.SQUID);
+                                ships[i][extra] = new Ship(5, boards[i * 2], "Kraken", Emoji.SQUID);
                             } else if(theme[i]==2) {
-                                ships[i][extra] = new Ship(4, boards[i * 2], "Brigantine", Emoji.SAILBOAT);
+                                ships[i][extra] = new Ship(5, boards[i * 2], "Brigantine", Emoji.SAILBOAT);
+                            } else if(theme[i]==3) {
+                                ships[i][extra] = new Ship(5, boards[i * 2], "Rocket", Emoji.ROCKET);
                             }
                             break;
                         case 2:
                             if (theme[i]==0) {
-                                ships[i][extra] = new Ship(3, boards[i * 2], "Destroyer", Emoji.SMALL_BOAT);
+                                ships[i][extra] = new Ship(4, boards[i * 2], "Destroyer", Emoji.SMALL_BOAT);
                             } else if(theme[i]==1) {
-                                ships[i][extra] = new Ship(3, boards[i * 2], "Sea Serpent", Emoji.DRAGON);
+                                ships[i][extra] = new Ship(4, boards[i * 2], "Sea Serpent", Emoji.DRAGON);
                             } else if(theme[i]==2) {
-                                ships[i][extra] = new Ship(3, boards[i * 2], "Schooner", Emoji.CANOE);
+                                ships[i][extra] = new Ship(4, boards[i * 2], "Schooner", Emoji.CANOE);
+                            } else if(theme[i]==3) {
+                                ships[i][extra] = new Ship(4, boards[i * 2], "Antennae Ship", Emoji.SATELLITE_ANTENNA);
                             }
                             break;
                         case 3:
@@ -67,6 +73,8 @@ public class Boatmaker {
                                 ships[i][extra] = new Ship(3, boards[i * 2], "Megalodon", Emoji.SHARK);
                             } else if(theme[i]==2) {
                                 ships[i][extra] = new Ship(3, boards[i * 2], "Sloop", Emoji.SAILBOAT);
+                            } else if(theme[i]==3) {
+                                ships[i][extra] = new Ship(3, boards[i * 2], "Comet Rider", Emoji.SHOOTING_STAR);
                             }
                             break;
                         case 4:
@@ -76,6 +84,8 @@ public class Boatmaker {
                                 ships[i][extra] = new Ship(2, boards[i * 2], "Giant Crab", Emoji.CRAB);
                             } else if(theme[i]==2) {
                                 ships[i][extra] = new Ship(2, boards[i * 2], "Rowboat", Emoji.ROWBOAT);
+                            } else if(theme[i]==3) {
+                                ships[i][extra] = new Ship(2, boards[i * 2], "Sattellite Ship", Emoji.SATELLITE);
                             }
                             break;
                         case 5:
@@ -85,6 +95,8 @@ public class Boatmaker {
                                 ships[i][extra] = new Mine(1, boards[i * 2], "Vortex", Emoji.VORTEX);
                             } else if(theme[i]==2) {
                                 ships[i][extra] = new Mine(1, boards[i * 2], "Bomb", Emoji.BOMB);
+                            } else if(theme[i]==3) {
+                                ships[i][extra] = new Mine(1, boards[i * 2], "Reactor", Emoji.RADIOACTIVE);
                             }
                             break;
                     }
